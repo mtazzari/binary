@@ -44,7 +44,7 @@ License
 
 Copyright 2013 Marco Tazzari and Giuseppe Lodato.
 
-Binary is free software made available under the GPLv3 License. For details see
+Binary is free software made available under the GNU GPLv3 License. For details see
 the LICENSE file.
 
 
