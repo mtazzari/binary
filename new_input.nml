@@ -1,0 +1,23 @@
+&INPUTVARIABLES
+ SIM_MODE	= "Chang1ssdasd"	,	
+ INR		= 200				,
+ GRIDTYPE	= 1					,
+ T0			= 0.0d0				,
+ TOT_TIME	= 1.0d9     		,
+ DTAUSNAP	= 1.0d3				,
+ MP			= 1.0d7 			,
+ Q			= 0.1d0				,
+ ROUT		= 1.0d5  			,
+ ROUT_UNIT	= 2					,
+ A0			= 1.0d4  			,
+ F			= 1.0d-1			,
+ INITIAL_SIGMA_TYPE	= 6			,
+ INITIAL_SIGMA_FILE = 'steadyM10_4inr200.dat',
+ SIGMADOT_TYPE		= 2 		,
+ MDOTIN		= 1.0d-1   			,
+ M_DISC0	= 0.0d0				,
+ ISPLANET	= 0					,
+ TINJECTPLANET		= 0.0d0     ,
+ TMIGRATION	= 0.0d0			,
+ /
+ 
