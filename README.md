@@ -17,7 +17,7 @@ For details on the scientific implementation, see the published paper.
 Attribution
 -----------
 
-Please cite `Tazzari & Lodato (2015) <http://arxiv.org/abs/1502.05046>`_ if you find this code useful for your
+Please cite `Tazzari & Lodato (2015)<http://arxiv.org/abs/1502.05046>`_ if you find this code useful for your
 research.
 The BibTeX entry for the paper is::
 
