@@ -1,6 +1,8 @@
-///////////////////////////
-////    COMPILE        ////
-///////////////////////////
+Documentation
+=============
+
+How to compile
+--------------
 Compile with: 
     make
 Default option: __PRINGLE__ : uses J. Pringle prescription (as in Lodato+2009) to solve the energy balance equation
@@ -15,9 +17,8 @@ Option 2:
 	make chang
 
 
-///////////////////////////
-////      INPUT        ////
-///////////////////////////
+Input file
+----------
 Below, an annotated sample input file:
 
 &INPUTVARIABLES
@@ -50,9 +51,8 @@ For INITIAL_SIGMA_TYPE = 5, 8, 9, M_DISC0 is used to re-normalize the disk surfa
 This is useful, e.g. to reproduce Lodato+2009, Chang+2009, Armitage+2002 simulations.
 It is also useful to start the simulation from a steady-state surface density profile (previously obtained with a very long simulation at a fixed MDOTIN, letting it evlove until it reached steady state).
 
-///////////////////////////
-////      OUTPUT       ////
-///////////////////////////
+Output files
+-----
 Each execution creates a directory named as SIM_MODE with the following content:
   code/ 		  		# directory containing the code and the input file used for the run (for reproducibility)
   snap/					# directory containing the snapshots of the disk, one snapshot every DTAUSNAP
