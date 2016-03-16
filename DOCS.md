@@ -54,7 +54,7 @@ Below, an annotated sample input file:
 ```
 
 Note:
-For INITIAL_SIGMA_TYPE = 5, 8, 9, M_DISC0 is used to re-normalize the disk surface density to match M_DISC0 initial mass.
+For INITIAL_SIGMA_TYPE = 5, 8, 9, the value of M_DISC0 is used to re-normalize the disk surface density to match M_DISC0 initial mass.
 
 This is useful, e.g. to reproduce Lodato+2009, Chang+2009, Armitage+2002 simulations.
 
@@ -63,9 +63,10 @@ It is also useful to start the simulation from a steady-state surface density pr
 Output files
 -----
 Each execution creates a directory named as SIM_MODE with the following content:
-  code/ 		  		# directory containing the code and the input file used for the run (for reproducibility)
-  snap/					# directory containing the snapshots of the disk, one snapshot every DTAUSNAP
-    |-- snapshot_01.dat # snapshot of the disk (quantities as a function of disc radius)
+
+*  code/ 		  		# directory containing the code and the input file used for the run (for reproducibility)
+*  snap/					# directory containing the snapshots of the disk, one snapshot every DTAUSNAP
+    * |-- snapshot_01.dat # snapshot of the disk (quantities as a function of disc radius)
   snap_latest/			# directory containing the snapshots of the disk, one snapshot every time the binary separation decreases by 1 Rg.
     |-- snapshot_01.dat # same as above
   mass.dat				# snapshot of the disk structure throughout the run (one line per each snapshot)
