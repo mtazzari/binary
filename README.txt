@@ -22,6 +22,9 @@
 !!     DOI: 10.1093/mnras/stv352
 
 
+///////////////////////////
+////    COMPILE        ////
+///////////////////////////
 Compile with: 
     make
 Default option: __PRINGLE__ : uses J. Pringle prescription (as in Lodato+2009) to solve the energy balance equation
@@ -36,6 +39,9 @@ Option 2:
 	make chang
 
 
+///////////////////////////
+////      INPUT        ////
+///////////////////////////
 Below, an annotated sample input file:
 
 &INPUTVARIABLES
@@ -67,3 +73,44 @@ Note:
 For INITIAL_SIGMA_TYPE = 5, 8, 9, M_DISC0 is used to re-normalize the disk surface density to match M_DISC0 initial mass.
 This is useful, e.g. to reproduce Lodato+2009, Chang+2009, Armitage+2002 simulations.
 It is also useful to start the simulation from a steady-state surface density profile (previously obtained with a very long simulation at a fixed MDOTIN, letting it evlove until it reached steady state).
+
+///////////////////////////
+////      OUTPUT       ////
+///////////////////////////
+File mass.dat:
+	open(unit=u_massfile, file=massfilename,access='append')
+	write(u_massfile,f_massfile) 		isncount		,&				! 1. snap number
+									&	t/year			,&				! 2. time
+									&	mass/M_sun		,&				! 3. disc mass
+									&	mass_inner/M_sun,&				! 4. inner disc mass
+									&	tot_acc_mass/M_sun		,&		! 5. total mass accreted
+									&	tot_sim_mass/M_sun		,&		! 6. total mass of the simulation (must be constant)
+									& 	mdot(1)/(M_sun_year)	,&		! 7. mdot at R_in
+									&	mdot(inr)/(M_sun_year)	,&		! 8. mdot at R_out
+									& 	a				,&				! 9. secondary's position in cm
+									&	a/parsec		,&				!10. secondary's position in parsec
+									&	a/rg			,&				!11. secondary's position in rg
+									&	adot1			,&				!12. acceleration due to viscous torque
+									&	adot2			,&				!13. acceleration due to gw torque
+									&	Acc_L/L_Edd						!14. Luminosity / Eddington Luminosity
+	close(u_massfile)	
+	
+	
+File snapshot_###.dat:
+	write(u_snapshots_latest,f_snapshots) 	xrg(i)				,&		!  1. radial coordinate in rg
+									&	max(prec_out,sigma(i))		,&		!  2. sigma
+									&	max(prec_out,nu(i))			,&		!  3. viscosity
+									&	max(prec_out,T_eff(i))		,&		!  4. effective temperature
+									&	max(prec_out,T_c(i))		,&		!  5. central temperature
+									&	max(prec_out,H(i)/x(2*i))	,&		!  6. thickness/R
+									& 	lambda(i)					,&		!  7. torque
+									&	xpc(i)						,&		!  8. radial coordinate in parsec
+									&	prad						,&		!  9. radiation pressure
+									&	pgas						,&		! 10. gas pressure
+									&	prad_pgas					,&		! 11. radiation to gas pressure ratio
+									&	tnu									! 12. viscous timescale									
+	enddo
+	write(u_snapshots_latest,f_snapshots) 	xrg(inr),prec_out,prec_out,prec_out,& 
+									& prec_out,prec_out,prec_out,xpc(inr),prec_out,prec_out,prec_out,prec_out		
+	close(u_snapshots_latest)
+	
