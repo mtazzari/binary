@@ -1,0 +1,543 @@
+&DATAOPTS
+ BUFFER_DATA=F,
+ ICALCQUANTITIES=F,
+ IRESCALE=F,
+ XORIGIN= 3*0.00000000      ,
+ /
+&PLOTOPTS
+ IPLOTLINE=T,
+ LINESTYLE=          1,
+ LINECOLOUR=          8,
+ IMARKTYPE=          1,          4,         17,          1,          3,
+  7*1          ,
+ IPLOTPARTOFTYPE= 12*F,
+ PLOTONRENDERINGS= 12*F,
+ IEXACT=          0,
+ ICOORDSNEW=          1,
+ IFASTPARTICLEPLOT=T,
+ IDEFAULTCOLOURTYPE= 12*-1         ,
+ ITYPEORDER=          1,          2,          3,          4,          5,
+           6,          7,          8,          9,         10,         11,
+          12,
+ USETYPEINCONTOURS= 12*F,
+ IPLOTERRBARS=F,
+ ILOCERRBARS= 64*0          ,
+ HFACMARKERS=  1.00000000    ,
+ /
+&PAGEOPTS
+ IAXIS=          0,
+ NACROSS=          1,
+ NDOWN=          1,
+ INTERACTIVE=T,
+ IADAPT=F,
+ IADAPTCOORDS=F,
+ NSTEPSPERPAGE=          1,
+ ICOLOUREACHSTEP=T,
+ ICHANGESTYLES=F,
+ TILE=T,
+ IPAPERSIZE=          0,
+ PAPERSIZEX=  0.00000000    ,
+ ASPECTRATIO=  0.00000000    ,
+ IPLOTLEGEND=T,
+ IPLOTSTEPLEGEND=F,
+ HPOSLEGEND= 0.949999988    ,
+ VPOSLEGEND=  2.00000000    ,
+ IPLOTTITLES=F,
+ HPOSTITLE= 0.500000000    ,
+ VPOSTITLE=  1.00000000    ,
+ FJUSTTITLE= 0.500000000    ,
+ LEGENDTEXT='t=                  ',
+ IPAGECOLOURS=          0,
+ CHARHEIGHT=  1.00000000    ,
+ LINEWIDTH=          0,
+ FJUSTLEGEND=  1.00000000    ,
+ IPLOTLEGENDONLYONPANEL=          0,
+ IPLOTSCALE=F,
+ DXSCALE=  1.00000000    ,
+ SCALETEXT='1 unit              ',
+ HPOSSCALE= 0.500000000    ,
+ VPOSSCALE=  1.00000000    ,
+ ISCALEPANEL=          0,
+ IUSEBACKGROUNDCOLOURFORAXES=F,
+ USESQUAREXY=T,
+ MAXLINESTYLE=          5,
+ MODLINESTYLE=          1,
+ MAXCOLOUR=         16,
+ MODCOLOUR=          1,
+ USECOLUMNORDER=T,
+ IPAPERSIZEUNITS=          1,
+ ADJUSTLIMITSTODEVICE=F,
+ ALPHALEGEND= 0.500000000    ,
+ /
+&RENDEROPTS
+ NPIX=          0,
+ ICOLOURS=          2,
+ NCONTOURS=         30,
+ IPLOTCONT_NOMULTI=F,
+ ICOLOUR_PARTICLES=F,
+ COLOURBARDISP=  5.00000000    ,
+ INORMALISE_INTERPOLATIONS=F,
+ IFASTRENDER=F,
+ IDENSITYWEIGHTEDINTERPOLATION=F,
+ ICOLOURBARSTYLE=          1,
+ IPLOTCOLOURBARLABEL=T,
+ ILABELCONT=F,
+ PROJLABELFORMAT='                                                                                                    ',
+ IAPPLYPROJFORMAT=          0,
+ DOUBLE_RENDERING=F,
+ /
+&VECTOROPTS
+ NPIXVEC=         40,
+ USEBACKGNDCOLORVECPLOT=F,
+ IPLOTPARTVEC=T,
+ IVECPLOTLEGEND=T,
+ HPOSLEGENDVEC=  1.99999996E-02,
+ VPOSLEGENDVEC= -1.50000000    ,
+ IPLOTSTREAMLINES=F,
+ IPLOTARROWHEADS=T,
+ IPLOTSYNCHROTRON=F,
+ RCRIT=  13.0000000    ,
+ ZCRIT=  2.50000000    ,
+ SYNCHROTRONSPECINDEX= 0.800000012    ,
+ UTHERMCUTOFF= -1.00000000    ,
+ IHIDEARROWSWHERENOPARTS=F,
+ MINPARTFORARROW=          1,
+ IALLARROWSSAMELENGTH=F,
+ /
+&XSECROTOPTS
+ XSEC_NOMULTI=F,
+ XSECPOS_NOMULTI=  0.00000000    ,
+ FLYTHRU=F,
+ XSECLINEX1=  0.00000000    ,
+ XSECLINEX2=  0.00000000    ,
+ XSECLINEY1=  0.00000000    ,
+ XSECLINEY2=  0.00000000    ,
+ IROTATE=F,
+ IROTATEAXES=          0,
+ ANGLEX=  0.00000000    ,
+ ANGLEY=  0.00000000    ,
+ ANGLEZ=  0.00000000    ,
+ XMINROTAXES= 3*0.00000000      ,
+ XMAXROTAXES= 3*0.00000000      ,
+ USE3DPERSPECTIVE=F,
+ USE3DOPACITYRENDERING=F,
+ ZOBSERVER=  0.00000000    ,
+ DZSCREENFROMOBSERVER=  0.00000000    ,
+ TAUPARTDEPTH=  2.00000000    ,
+ WRITEPPM=T,
+ XSECWIDTH=  0.00000000    ,
+ /
+&POWERSPECOPTS
+ IPOWERSPECY=          2,
+ IDISORDERED=T,
+ NWAVELENGTHS=        128,
+ NFREQSPEC=          1,
+ NPDFBINS=          0,
+ /
+&EXACTOPTS
+ IEXACTPLOTX=          0,
+ IEXACTPLOTY=          0,
+ FILENAME_EXACT='                                                                                                                        ',
+ MAXEXACTPTS=       1001,
+ IEXACTLINECOLOUR=          1,
+ IEXACTLINESTYLE=          1,
+ IAPPLYTRANSEXACTFILE=T,
+ ICALCULATEEXACTERRORS=T,
+ IPLOTRESIDUALS=F,
+ FRACINSETRESIDUALS= 0.150000006    ,
+ RESIDUALMAX=  0.00000000    ,
+ IPLOTEXACTONLYONPANEL=          0,
+ /
+&EXACTPARAMS
+ AMPL=  4.99999989E-03,
+ LAMBDA=  1.00000000    ,
+ PERIOD=  1.00000000    ,
+ IWAVEPLOTY=          7,
+ IWAVEPLOTX=          1,
+ XZERO=  0.00000000    ,
+ HTSTAR=  1.00000000    ,
+ ATSTAR=  1.00000000    ,
+ CTSTAR=  1.00000000    ,
+ ALPHATSTAR=  0.00000000    ,
+ BETATSTAR=  0.00000000    ,
+ CTSTAR1=  0.00000000    ,
+ CTSTAR2=  0.00000000    ,
+ POLYK=  1.00000000    ,
+ SIGMA0=  0.00000000    ,
+ NORDER=         -1,
+ MORDER=          0,
+ RHOSEDOV=  1.00000000    ,
+ ESEDOV=  1.00000000    ,
+ RHO_L=  1.00000000    ,
+ RHO_R= 0.125000000    ,
+ PR_L=  1.00000000    ,
+ PR_R= 0.100000001    ,
+ V_L=  0.00000000    ,
+ V_R=  0.00000000    ,
+ ISHK=          1,
+ HFACT=  1.20000005    ,
+ IPROFILE=          1,
+ MSPHERE=  1.00000000    ,  0.00000000    ,
+ RSOFT=  1.00000000    , 0.100000001    ,
+ ICOLPOTEN=          0,
+ ICOLFGRAV=          0,
+ MSTAR=  1.00000000    ,
+ RTORUS=  1.00000000    ,
+ DISTORTION=  1.10000002    ,
+ MRING=  1.00000000    ,
+ RRING=  1.00000000    ,
+ VISCNU=  1.00000005E-03,
+ NFUNC=          1,
+ FUNCSTRING= 10*'                                                                                                                        ',
+ CS=  1.00000000    ,
+ KDRAG=  1.00000000    ,
+ RHOZERO=  1.00000000    ,
+ RDUST_TO_GAS=  0.00000000    ,
+ SEMI=  1.00000000    ,
+ ECC=  0.00000000    ,
+ MPRIM=  1.00000000    ,
+ MSEC=  1.00000000    ,
+ IXCOLFILE=          1,
+ IYCOLFILE=          2,
+ /
+&MULTI
+ NYPLOTMULTI=          1,
+ ITRANS= 2*1          , 62*0          ,
+ MULTIPLOTX= 64*1          ,
+ MULTIPLOTY=          2,          5,          4,          5, 60*0          ,
+ 
+ IRENDERMULTI= 64*0          ,
+ IVECPLOTMULTI= 64*0          ,
+ ICONTOURMULTI= 64*0          ,
+ X_SECMULTI= 64*F,
+ XSECPOSMULTI= 64*0.00000000      ,
+ IUSEALLTYPESMULTI= 64*T,
+ IPLOTPARTOFTYPEMULTI=T, 12*F,T, 12*F,T,
+  12*F,T, 12*F,T, 12*F,T,
+  12*F,T, 12*F,T, 12*F,T,
+  12*F,T, 12*F,T, 12*F,T,
+  624*F,
+ /
+&SHAPEOPTS
+ NSHAPES=          0,
+ SHAPE(1)%ITYPE=          0,
+ SHAPE(1)%ICOLOUR=          1,
+ SHAPE(1)%LINESTYLE=          1,
+ SHAPE(1)%LINEWIDTH=          1,
+ SHAPE(1)%IFILLSTYLE=          2,
+ SHAPE(1)%IUNITS=          1,
+ SHAPE(1)%IPLOTONPANEL=          0,
+ SHAPE(1)%XPOS= 0.500000000    ,
+ SHAPE(1)%YPOS= 0.500000000    ,
+ SHAPE(1)%XLEN=  1.00000000    ,
+ SHAPE(1)%YLEN=  1.00000000    ,
+ SHAPE(1)%ANGLE=  0.00000000    ,
+ SHAPE(1)%FJUST=  0.00000000    ,
+ SHAPE(1)%TEXT='                                                                                                                        ',
+ SHAPE(2)%ITYPE=          0,
+ SHAPE(2)%ICOLOUR=          1,
+ SHAPE(2)%LINESTYLE=          1,
+ SHAPE(2)%LINEWIDTH=          1,
+ SHAPE(2)%IFILLSTYLE=          2,
+ SHAPE(2)%IUNITS=          1,
+ SHAPE(2)%IPLOTONPANEL=          0,
+ SHAPE(2)%XPOS= 0.500000000    ,
+ SHAPE(2)%YPOS= 0.500000000    ,
+ SHAPE(2)%XLEN=  1.00000000    ,
+ SHAPE(2)%YLEN=  1.00000000    ,
+ SHAPE(2)%ANGLE=  0.00000000    ,
+ SHAPE(2)%FJUST=  0.00000000    ,
+ SHAPE(2)%TEXT='                                                                                                                        ',
+ SHAPE(3)%ITYPE=          0,
+ SHAPE(3)%ICOLOUR=          1,
+ SHAPE(3)%LINESTYLE=          1,
+ SHAPE(3)%LINEWIDTH=          1,
+ SHAPE(3)%IFILLSTYLE=          2,
+ SHAPE(3)%IUNITS=          1,
+ SHAPE(3)%IPLOTONPANEL=          0,
+ SHAPE(3)%XPOS= 0.500000000    ,
+ SHAPE(3)%YPOS= 0.500000000    ,
+ SHAPE(3)%XLEN=  1.00000000    ,
+ SHAPE(3)%YLEN=  1.00000000    ,
+ SHAPE(3)%ANGLE=  0.00000000    ,
+ SHAPE(3)%FJUST=  0.00000000    ,
+ SHAPE(3)%TEXT='                                                                                                                        ',
+ SHAPE(4)%ITYPE=          0,
+ SHAPE(4)%ICOLOUR=          1,
+ SHAPE(4)%LINESTYLE=          1,
+ SHAPE(4)%LINEWIDTH=          1,
+ SHAPE(4)%IFILLSTYLE=          2,
+ SHAPE(4)%IUNITS=          1,
+ SHAPE(4)%IPLOTONPANEL=          0,
+ SHAPE(4)%XPOS= 0.500000000    ,
+ SHAPE(4)%YPOS= 0.500000000    ,
+ SHAPE(4)%XLEN=  1.00000000    ,
+ SHAPE(4)%YLEN=  1.00000000    ,
+ SHAPE(4)%ANGLE=  0.00000000    ,
+ SHAPE(4)%FJUST=  0.00000000    ,
+ SHAPE(4)%TEXT='                                                                                                                        ',
+ SHAPE(5)%ITYPE=          0,
+ SHAPE(5)%ICOLOUR=          1,
+ SHAPE(5)%LINESTYLE=          1,
+ SHAPE(5)%LINEWIDTH=          1,
+ SHAPE(5)%IFILLSTYLE=          2,
+ SHAPE(5)%IUNITS=          1,
+ SHAPE(5)%IPLOTONPANEL=          0,
+ SHAPE(5)%XPOS= 0.500000000    ,
+ SHAPE(5)%YPOS= 0.500000000    ,
+ SHAPE(5)%XLEN=  1.00000000    ,
+ SHAPE(5)%YLEN=  1.00000000    ,
+ SHAPE(5)%ANGLE=  0.00000000    ,
+ SHAPE(5)%FJUST=  0.00000000    ,
+ SHAPE(5)%TEXT='                                                                                                                        ',
+ SHAPE(6)%ITYPE=          0,
+ SHAPE(6)%ICOLOUR=          1,
+ SHAPE(6)%LINESTYLE=          1,
+ SHAPE(6)%LINEWIDTH=          1,
+ SHAPE(6)%IFILLSTYLE=          2,
+ SHAPE(6)%IUNITS=          1,
+ SHAPE(6)%IPLOTONPANEL=          0,
+ SHAPE(6)%XPOS= 0.500000000    ,
+ SHAPE(6)%YPOS= 0.500000000    ,
+ SHAPE(6)%XLEN=  1.00000000    ,
+ SHAPE(6)%YLEN=  1.00000000    ,
+ SHAPE(6)%ANGLE=  0.00000000    ,
+ SHAPE(6)%FJUST=  0.00000000    ,
+ SHAPE(6)%TEXT='                                                                                                                        ',
+ SHAPE(7)%ITYPE=          0,
+ SHAPE(7)%ICOLOUR=          1,
+ SHAPE(7)%LINESTYLE=          1,
+ SHAPE(7)%LINEWIDTH=          1,
+ SHAPE(7)%IFILLSTYLE=          2,
+ SHAPE(7)%IUNITS=          1,
+ SHAPE(7)%IPLOTONPANEL=          0,
+ SHAPE(7)%XPOS= 0.500000000    ,
+ SHAPE(7)%YPOS= 0.500000000    ,
+ SHAPE(7)%XLEN=  1.00000000    ,
+ SHAPE(7)%YLEN=  1.00000000    ,
+ SHAPE(7)%ANGLE=  0.00000000    ,
+ SHAPE(7)%FJUST=  0.00000000    ,
+ SHAPE(7)%TEXT='                                                                                                                        ',
+ SHAPE(8)%ITYPE=          0,
+ SHAPE(8)%ICOLOUR=          1,
+ SHAPE(8)%LINESTYLE=          1,
+ SHAPE(8)%LINEWIDTH=          1,
+ SHAPE(8)%IFILLSTYLE=          2,
+ SHAPE(8)%IUNITS=          1,
+ SHAPE(8)%IPLOTONPANEL=          0,
+ SHAPE(8)%XPOS= 0.500000000    ,
+ SHAPE(8)%YPOS= 0.500000000    ,
+ SHAPE(8)%XLEN=  1.00000000    ,
+ SHAPE(8)%YLEN=  1.00000000    ,
+ SHAPE(8)%ANGLE=  0.00000000    ,
+ SHAPE(8)%FJUST=  0.00000000    ,
+ SHAPE(8)%TEXT='                                                                                                                        ',
+ SHAPE(9)%ITYPE=          0,
+ SHAPE(9)%ICOLOUR=          1,
+ SHAPE(9)%LINESTYLE=          1,
+ SHAPE(9)%LINEWIDTH=          1,
+ SHAPE(9)%IFILLSTYLE=          2,
+ SHAPE(9)%IUNITS=          1,
+ SHAPE(9)%IPLOTONPANEL=          0,
+ SHAPE(9)%XPOS= 0.500000000    ,
+ SHAPE(9)%YPOS= 0.500000000    ,
+ SHAPE(9)%XLEN=  1.00000000    ,
+ SHAPE(9)%YLEN=  1.00000000    ,
+ SHAPE(9)%ANGLE=  0.00000000    ,
+ SHAPE(9)%FJUST=  0.00000000    ,
+ SHAPE(9)%TEXT='                                                                                                                        ',
+ SHAPE(10)%ITYPE=          0,
+ SHAPE(10)%ICOLOUR=          1,
+ SHAPE(10)%LINESTYLE=          1,
+ SHAPE(10)%LINEWIDTH=          1,
+ SHAPE(10)%IFILLSTYLE=          2,
+ SHAPE(10)%IUNITS=          1,
+ SHAPE(10)%IPLOTONPANEL=          0,
+ SHAPE(10)%XPOS= 0.500000000    ,
+ SHAPE(10)%YPOS= 0.500000000    ,
+ SHAPE(10)%XLEN=  1.00000000    ,
+ SHAPE(10)%YLEN=  1.00000000    ,
+ SHAPE(10)%ANGLE=  0.00000000    ,
+ SHAPE(10)%FJUST=  0.00000000    ,
+ SHAPE(10)%TEXT='                                                                                                                        ',
+ /
+&CALCOPTS
+ CALCSTRING= 35*'                                                                                ',
+ CALCLABEL= 35*'                                                                                ',
+ CALCUNITSLABEL= 35*'                                        ',
+ /
+snap/snap0000000000.dat
+snap/snap0000000001.dat
+snap/snap0000000002.dat
+snap/snap0000000003.dat
+snap/snap0000000004.dat
+snap/snap0000000005.dat
+snap/snap0000000006.dat
+snap/snap0000000007.dat
+snap/snap0000000008.dat
+snap/snap0000000009.dat
+snap/snap0000000010.dat
+snap/snap0000000011.dat
+snap/snap0000000012.dat
+snap/snap0000000013.dat
+snap/snap0000000014.dat
+snap/snap0000000015.dat
+snap/snap0000000016.dat
+snap/snap0000000017.dat
+snap/snap0000000018.dat
+snap/snap0000000019.dat
+snap/snap0000000020.dat
+snap/snap0000000021.dat
+snap/snap0000000022.dat
+snap/snap0000000023.dat
+snap/snap0000000024.dat
+snap/snap0000000025.dat
+snap/snap0000000026.dat
+snap/snap0000000027.dat
+snap/snap0000000028.dat
+snap/snap0000000029.dat
+snap/snap0000000030.dat
+snap/snap0000000031.dat
+snap/snap0000000032.dat
+snap/snap0000000033.dat
+snap/snap0000000034.dat
+snap/snap0000000035.dat
+snap/snap0000000036.dat
+snap/snap0000000037.dat
+snap/snap0000000038.dat
+snap/snap0000000039.dat
+snap/snap0000000040.dat
+snap/snap0000000041.dat
+snap/snap0000000042.dat
+snap/snap0000000043.dat
+snap/snap0000000044.dat
+snap/snap0000000045.dat
+snap/snap0000000046.dat
+snap/snap0000000047.dat
+snap/snap0000000048.dat
+snap/snap0000000049.dat
+snap/snap0000000050.dat
+snap/snap0000000051.dat
+snap/snap0000000052.dat
+snap/snap0000000053.dat
+snap/snap0000000054.dat
+snap/snap0000000055.dat
+snap/snap0000000056.dat
+snap/snap0000000057.dat
+snap/snap0000000058.dat
+snap/snap0000000059.dat
+snap/snap0000000060.dat
+snap/snap0000000061.dat
+snap/snap0000000062.dat
+snap/snap0000000063.dat
+snap/snap0000000064.dat
+snap/snap0000000065.dat
+snap/snap0000000066.dat
+snap/snap0000000067.dat
+snap/snap0000000068.dat
+snap/snap0000000069.dat
+snap/snap0000000070.dat
+snap/snap0000000071.dat
+snap/snap0000000072.dat
+snap/snap0000000073.dat
+snap/snap0000000074.dat
+snap/snap0000000075.dat
+snap/snap0000000076.dat
+snap/snap0000000077.dat
+snap/snap0000000078.dat
+snap/snap0000000079.dat
+snap/snap0000000080.dat
+snap/snap0000000081.dat
+snap/snap0000000082.dat
+snap/snap0000000083.dat
+snap/snap0000000084.dat
+snap/snap0000000085.dat
+snap/snap0000000086.dat
+snap/snap0000000087.dat
+snap/snap0000000088.dat
+snap/snap0000000089.dat
+snap/snap0000000090.dat
+snap/snap0000000091.dat
+snap/snap0000000092.dat
+snap/snap0000000093.dat
+snap/snap0000000094.dat
+snap/snap0000000095.dat
+snap/snap0000000096.dat
+snap/snap0000000097.dat
+snap/snap0000000098.dat
+snap/snap0000000099.dat
+snap/snap0000000100.dat
+snap/snap0000000101.dat
+snap/snap0000000102.dat
+snap/snap0000000103.dat
+snap/snap0000000104.dat
+snap/snap0000000105.dat
+snap/snap0000000106.dat
+snap/snap0000000107.dat
+snap/snap0000000108.dat
+snap/snap0000000109.dat
+snap/snap0000000110.dat
+snap/snap0000000111.dat
+snap/snap0000000112.dat
+snap/snap0000000113.dat
+snap/snap0000000114.dat
+snap/snap0000000115.dat
+snap/snap0000000116.dat
+snap/snap0000000117.dat
+snap/snap0000000118.dat
+snap/snap0000000119.dat
+snap/snap0000000120.dat
+snap/snap0000000121.dat
+snap/snap0000000122.dat
+snap/snap0000000123.dat
+snap/snap0000000124.dat
+snap/snap0000000125.dat
+snap/snap0000000126.dat
+snap/snap0000000127.dat
+snap/snap0000000128.dat
+snap/snap0000000129.dat
+snap/snap0000000130.dat
+snap/snap0000000131.dat
+snap/snap0000000132.dat
+snap/snap0000000133.dat
+snap/snap0000000134.dat
+snap/snap0000000135.dat
+snap/snap0000000136.dat
+snap/snap0000000137.dat
+snap/snap0000000138.dat
+snap/snap0000000139.dat
+snap/snap0000000140.dat
+snap/snap0000000141.dat
+snap/snap0000000142.dat
+snap/snap0000000143.dat
+snap/snap0000000144.dat
+snap/snap0000000145.dat
+snap/snap0000000146.dat
+snap/snap0000000147.dat
+snap/snap0000000148.dat
+snap/snap0000000149.dat
+snap/snap0000000150.dat
+snap/snap0000000151.dat
+snap/snap0000000152.dat
+snap/snap0000000153.dat
+snap/snap0000000154.dat
+snap/snap0000000155.dat
+snap/snap0000000156.dat
+snap/snap0000000157.dat
+snap/snap0000000158.dat
+snap/snap0000000159.dat
+snap/snap0000000160.dat
+snap/snap0000000161.dat
+snap/snap0000000162.dat
+snap/snap0000000163.dat
+snap/snap0000000164.dat
+snap/snap0000000165.dat
+snap/snap0000000166.dat
+snap/snap0000000167.dat
+snap/snap0000000168.dat
+snap/snap0000000169.dat
+snap/snap0000000170.dat
+snap/snap0000000171.dat
+snap/snap0000000172.dat
+snap/snap0000000173.dat
+snap/snap0000000174.dat
