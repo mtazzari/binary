@@ -5,10 +5,13 @@ How to compile
 --------------
 Compile with: 
     make
+    
 Default option: __PRINGLE__ : uses J. Pringle prescription (as in Lodato+2009) to solve the energy balance equation
 
 Other options:
+
 1) __ONLYPGAS__ : considers only gas pressure (neglects radiation pressure)
+
 2) __ENERGYCHANG__: considers only gas pressure and assuemes fixed opacity (as in Chang+2010)
 To compile:
 Option 1:
@@ -74,6 +77,7 @@ Since the splash.* files are already provided in the directory, it should be alr
 
 Here more details on the output:
 File mass.dat:
+```fortran
 	open(unit=u_massfile, file=massfilename,access='append')
 	write(u_massfile,f_massfile) 		isncount		,&				! 1. snap number
 									&	t/year			,&				! 2. time
@@ -90,9 +94,10 @@ File mass.dat:
 									&	adot2			,&				!13. acceleration due to gw torque
 									&	Acc_L/L_Edd						!14. Luminosity / Eddington Luminosity
 	close(u_massfile)	
-	
+```
 	
 File snapshot_###.dat:
+```fortran
 	write(u_snapshots_latest,f_snapshots) 	xrg(i)				,&		!  1. radial coordinate in rg
 									&	max(prec_out,sigma(i))		,&		!  2. sigma
 									&	max(prec_out,nu(i))			,&		!  3. viscosity
@@ -109,5 +114,5 @@ File snapshot_###.dat:
 	write(u_snapshots_latest,f_snapshots) 	xrg(inr),prec_out,prec_out,prec_out,& 
 									& prec_out,prec_out,prec_out,xpc(inr),prec_out,prec_out,prec_out,prec_out		
 	close(u_snapshots_latest)
-
+```
 	
