@@ -3,8 +3,10 @@ Documentation
 
 How to compile
 --------------
-Compile with: 
+Compile with:
+``` 
     make
+```
 
 Default option: __PRINGLE__ : uses J. Pringle prescription (as in Lodato+2009) to solve the energy balance equation
 
@@ -15,10 +17,13 @@ Other options:
 2) __ENERGYCHANG__: considers only gas pressure and assuemes fixed opacity (as in Chang+2010)
 To compile:
 Option 1:
+```
 	make gas
+```
 Option 2:
+```
 	make chang
-
+```
 
 Input file
 ----------
