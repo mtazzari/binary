@@ -12,15 +12,12 @@ Default option: __PRINGLE__ : uses J. Pringle prescription (as in Lodato+2009) t
 
 Other options:
 
-1) __ONLYPGAS__ : considers only gas pressure (neglects radiation pressure)
-
-2) __ENERGYCHANG__: considers only gas pressure and assuemes fixed opacity (as in Chang+2010)
-To compile:
-Option 1:
+1) __ONLYPGAS__ : considers only gas pressure (neglects radiation pressure). Compile with:
 ```
 	make gas
 ```
-Option 2:
+
+2) __ENERGYCHANG__: considers only gas pressure and assuemes fixed opacity (as in Chang+2010). Compile with:
 ```
 	make chang
 ```
