@@ -5,7 +5,7 @@ How to compile
 --------------
 Compile with: 
     make
-    
+
 Default option: __PRINGLE__ : uses J. Pringle prescription (as in Lodato+2009) to solve the energy balance equation
 
 Other options:
@@ -53,7 +53,9 @@ Below, an annotated sample input file:
 
 Note:
 For INITIAL_SIGMA_TYPE = 5, 8, 9, M_DISC0 is used to re-normalize the disk surface density to match M_DISC0 initial mass.
+
 This is useful, e.g. to reproduce Lodato+2009, Chang+2009, Armitage+2002 simulations.
+
 It is also useful to start the simulation from a steady-state surface density profile (previously obtained with a very long simulation at a fixed MDOTIN, letting it evlove until it reached steady state).
 
 Output files
@@ -72,7 +74,10 @@ Each execution creates a directory named as SIM_MODE with the following content:
   splash.limits			# splash file with plot limits 
 
 To have a look of the output snapshots, just change directory into SIM_MODE/ and do:
+```bash
 	splash
+```
+
 Since the splash.* files are already provided in the directory, it should be already set up with proper labels and limits.
 
 Here more details on the output:
