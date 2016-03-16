@@ -10,7 +10,8 @@ accretion discs.
 Documentation
 -------------
 
-See DOCS.md for technical details: how to compile, prepare the input files and analyze the ouput.
+See DOCS.md for technical details on how to compile, to prepare the input files and to analyze the ouput.
+
 For details on the scientific implementation, see the published paper.
 
 Attribution
