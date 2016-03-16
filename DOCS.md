@@ -21,6 +21,7 @@ Input file
 ----------
 Below, an annotated sample input file:
 
+```fortran
 &INPUTVARIABLES
  SIM_MODE='chang09sm1hbis            ',			# simulation name (choose freely) 
  INR=        200,								# radial grid, number of cells
@@ -45,6 +46,7 @@ Below, an annotated sample input file:
  TMIGRATION=  0.0000000000000000     ,			# time after which the migration BH is switched ON [yr] (see routines.F90, dimensional_variables())
  ALPHA= 0.10000000000000001     ,				# alpha parameter from Shakura-Sunyaev prescripion
  /
+```
 
 Note:
 For INITIAL_SIGMA_TYPE = 5, 8, 9, M_DISC0 is used to re-normalize the disk surface density to match M_DISC0 initial mass.
