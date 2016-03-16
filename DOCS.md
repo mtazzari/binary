@@ -64,17 +64,17 @@ Output files
 -----
 Each execution creates a directory named as SIM_MODE with the following content:
 
-*  code/ 		  		# directory containing the code and the input file used for the run (for reproducibility)
-*  snap/					# directory containing the snapshots of the disk, one snapshot every DTAUSNAP
-    * |-- snapshot_01.dat # snapshot of the disk (quantities as a function of disc radius)
-  snap_latest/			# directory containing the snapshots of the disk, one snapshot every time the binary separation decreases by 1 Rg.
-    |-- snapshot_01.dat # same as above
-  mass.dat				# snapshot of the disk structure throughout the run (one line per each snapshot)
-  sigma_neg.dat: 		# file containing a trace of points where sigma < 0 (just a sanity check for consistency; should be empty)
-  splash.columns        # splash file with column names
-  splash.defaults		# splash file with default parameters
-  splash.filenames		# splash file with filenames of the snapshots to be shown together
-  splash.limits			# splash file with plot limits 
+* code/ 		  		# directory containing the code and the input file used for the run (for reproducibility)
+* snap/					# directory containing the snapshots of the disk, one snapshot every DTAUSNAP
+    * snapshot_01.dat # snapshot of the disk (quantities as a function of disc radius)
+* snap_latest/			# directory containing the snapshots of the disk, one snapshot every time the binary separation decreases by 1 Rg.
+    * snapshot_01.dat # same as above
+* mass.dat				# snapshot of the disk structure throughout the run (one line per each snapshot)
+* sigma_neg.dat: 		# file containing a trace of points where sigma < 0 (just a sanity check for consistency; should be empty)
+* splash.columns        # splash file with column names
+* splash.defaults		# splash file with default parameters
+* splash.filenames		# splash file with filenames of the snapshots to be shown together
+* splash.limits			# splash file with plot limits 
 
 To have a look of the output snapshots, just change directory into SIM_MODE/ and do:
 ```bash
