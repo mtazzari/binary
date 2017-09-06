@@ -1,4 +1,4 @@
-Binary
+Binary 
 =====
 
 This program computes the evolution of an accretion disc interacting with a binary system. 
@@ -18,8 +18,7 @@ Attribution
 -----------
 
 Please cite [Tazzari & Lodato (2015)](<http://arxiv.org/abs/1502.05046>) if you find this code useful for your
-research.
-The BibTeX entry for the paper is::
+research. The BibTeX entry for the paper is:
 
 	@ARTICLE{2015MNRAS.449.1118T,
 	   author = {{Tazzari}, M. and {Lodato}, G.},
@@ -38,6 +37,7 @@ The BibTeX entry for the paper is::
 	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 	}
 
+To improve the reproducibility of the results, we also invite you to add in the acknowledgment of the paper the version of the code you used by referring to the zenodo entry: [![DOI](https://zenodo.org/badge/54038657.svg)](https://zenodo.org/badge/latestdoi/54038657)
 
 License
 -------
